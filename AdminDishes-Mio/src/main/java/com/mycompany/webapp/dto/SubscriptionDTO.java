@@ -13,7 +13,7 @@ public class SubscriptionDTO {
 	private String name;
 	private boolean state;
 	private String description;
-	private UserSubscription[] userSubscription;
+	private UserSubscription[] userSubscription;	
 	
 	
 	public SubscriptionDTO(){

@@ -24,8 +24,9 @@ public interface UserCusMapper {
 	@Mappings({ 
 		@Mapping(source = "userId", target = "userId"),
 		@Mapping(source = "nickName", target = "nickName"),		
-		@Mapping(source = "idProfile", target = "idProfile"), 
-		@Mapping(source = "state", target = "state")		
+		@Mapping(source = "idProfile", target = "idProfile"),
+		@Mapping(source = "state", target = "state"),		
+		@Mapping(source = "userSubscription", target = "userSubscription")		
 		})
 	
 	UserCusDTO userToUserDTO(UserCus userCus);

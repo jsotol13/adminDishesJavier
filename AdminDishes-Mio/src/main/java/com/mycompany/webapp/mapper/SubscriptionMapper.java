@@ -24,7 +24,8 @@ public interface SubscriptionMapper {
 		@Mapping(source = "week", target = "week"), 
 		@Mapping(source = "name", target = "name"),
 		@Mapping(source = "state", target = "state"),
-		@Mapping(source = "description", target = "description")
+		@Mapping(source = "description", target = "description"),
+		@Mapping(source = "userSubscription", target = "userSubscription")
 		})
 	
 	SubscriptionDTO subscriptionToSubscriptionDTO(Subscription subscription);

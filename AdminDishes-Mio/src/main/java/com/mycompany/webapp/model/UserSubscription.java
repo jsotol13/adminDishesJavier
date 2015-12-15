@@ -23,15 +23,13 @@ public class UserSubscription extends BaseObject{
 	private Subscription subscription;
 	private UserCus userCus;
 	
-	
-	// START SNIPPET: userSubscriptionID
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "userSubscriptionID", unique = true, nullable = false)
 	public Long getUserSubscriptionID() {
 		return userSubscriptionID;
 	}
-	// END SNIPET: userSubscriptionID
 	public void setUserSubscriptionID(Long userSubscriptionID) {
 		this.userSubscriptionID = userSubscriptionID;
 	}
